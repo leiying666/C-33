@@ -1,0 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<windows.h>
+int main()
+{
+	int arr[] = { 1,2,(3,4),5 };//（3，4）中间用，隔开，“，”表达式运算（）内所有表达式，输出最后一个表达式的反馈值
+	printf("%d", sizeof(arr));
+    return 0;
+}
